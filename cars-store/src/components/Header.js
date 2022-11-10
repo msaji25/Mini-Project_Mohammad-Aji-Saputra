@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 
-const Layout = (props) => {
+const Header = (props) => {
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -12,4 +12,4 @@ const Layout = (props) => {
     </>
   );
 };
-export default Layout;
+export default Header;
